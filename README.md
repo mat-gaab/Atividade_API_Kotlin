@@ -1,4 +1,7 @@
-# Resolução de Erros de Build
+# Atividade de integração com o Banco de Dados do Firebase (Real Time Database) da disciplina de PDM (Programação para dispositivos móveis)
+
+##Especificações do projeto: 
+Ele é um sistema de fichário de livros, no qual o usuário pode criar itens contendo o nome do livro, do autor e escrever uma breve sinopse, além de marcar o livro como "Não lido", "Lido" ou "Lendo agora". Apresenta 3 telas e implementação do CRUD completo e vinculação com o banco de dados do Firebase.
 
 O projeto apresentava diversos erros de compilação relacionados a incompatibilidades entre as versões do Gradle, do Android Gradle Plugin (AGP) e das bibliotecas AndroidX.
 
@@ -24,10 +27,4 @@ O projeto apresentava diversos erros de compilação relacionados a incompatibil
 
 ## Estado Atual
 *   **Build**: O projeto agora compila com sucesso (`Build finished successfully`).
-*   **Funcionalidade**: O CRUD com Firebase continua operacional.
-
-> [!TIP]
-> Ao adicionar novas bibliotecas no futuro, verifique sempre se elas exigem uma versão de SDK superior à que você está usando (atualmente 35).
-
-> [!IMPORTANT]
-> O arquivo `gradle.properties` agora contém as configurações essenciais para o funcionamento de projetos modernos com AndroidX.
+*   **Funcionalidade**: O CRUD com Firebase continua operacional
